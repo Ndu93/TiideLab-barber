@@ -8,58 +8,129 @@
 </head>
 
 <body>
-    <!-- text tags -->
-    <h1 id="heading-1 clas
-    heading">Heading 1</h1>
-    <h1 id="heading-2 clas
-    heading">Heading 2</h1>
+    <nav>
+        <a href="/">Home</a>
+        <a href="playground.html">playground</a>
+        <a href="#hairstyles">Hairstyles</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#media">Media</a>
+        <a href="#about">About Us</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
 
-    <img src="./barbing.jpeg" alt="profile pictures" class="profile picture" width="400" height="400" />
-    <a href="index.html" target="_blank" rel="noreferrer">Click ME</a>
+    <!-- intro -->
+    <section>
+        <h1>Welcome to Barber Shop</h1>
+        <img src="./logo.png" alt="">
+        <h5>More than just a haircut, we're your partner in crafting a signature look that reflects your unique
+            personality.</h5>
+        <img src="./barbing.jpeg" alt="">
+    </section>
 
-    <!-- Table -->
-    <table border="10">
-        <Thead>
-            <tr>
-                <th>Name</th>
-            </tr>
-        </Thead>
-    </table>
+    <!-- hairsytle -->
+    <section id="hairstyles">
+        <h3>Hairstyles You Need to Try in 2024</h3>
+        <ul>
+            <li>Short Curly Haircut & Low Drop Fade</li>
+            <li>Short Textured Quiff & Mid Fade.</li>
+            <li>High Temp Fade & Short Spiked Wavy Hair.</li>
+            <li>High Fade Mohawk.</li>
+            <li>Classic Short Comb-over.</li>
+            <li>Side Swept Crew Cut.</li>
+            <li>Buzz Cut with Beard.</li>
+            <li>Curly Flat Top.</li>
+        </ul>
 
-    <!-- Forms -->
-    <form>
-        <br>
-        <br>
-        <label for="Username" title="click to focus on the input field for usernmae">Enter Username</label>
-        <input type="text" id="username">
-        <br>
-        <br>
-        <br>
-        <input type="text" />
-        <input type="radio" />
-        <input type="checkbox" />
-        <input type="color" />
-        <input type="date" />
-        <input type="datetime-local" />
-        <input type="email" />
-        <input type="file" />
-        <input type="hidden" />
-        <br>
-        <br>
-        <input type="image" src="./logo.png" alt="website brand logo" />
-        <br>
-        <br>
-        <input type="month" />
-        <input type="number" />
-        <input type="password" />
-        <input type="range" />
-        <input type="search" />
+    </section>
 
-        <input type="button" value="Button" />
-        <input type="submit" value="submit" />
-    </form>
-    <!-- <input type="radio" /> -->
+    <!-- pricing -->
+    <section id="pricing">
+        <h2>Pricing</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>type</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
 
+                <tr>
+                    <td>Adult haircut</td>
+                    <td>#1000</td>
+                </tr>
+                <tr>
+                    <td>Youth haircut</td>
+                    <td>#800</td>
+                </tr>
+                <tr>
+                    <td>beard trim</td>
+                    <td>#300</td>
+                </tr>
+                <tr>
+                    <td>edge up</td>
+                    <td>#300</td>
+                </tr>
+            </tbody>
+        </table>
+
+    </section>
+
+    <!-- media -->
+    <section id="media">
+        <h2>Have fun while we make you beautiful</h2>
+        <h4>Listen to Nature</h4>
+        <audio controls>
+            <source src="./audio.ogg">
+        </audio>
+        <h4>Watch Movie</h4>
+        <video controls>
+            <source src="./video.mp4">
+        </video>
+    </section>
+
+    <!-- About Us  -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>We're not just cutting hair, we're building legacies. Since 2022, we've been a cornerstone of the community,
+            crafting
+            sharp styles and even sharper confidence for generations of men. Our founder, Unclebigbay, believed in the
+            power of a
+            great haircut to transform not just one's appearance, but one's outlook. Every snip, shave, and style is
+            fueled by that
+            same passion, ensuring you walk out feeling empowered and ready to conquer the world. We're more than just
+            barbers,
+            we're your confidantes, your stylists, your cheerleaders. Come join us, experience the legacy, and discover
+            what a truly
+            great haircut can do.</p>
+    </section>
+
+    <!-- Contact Us -->
+    <section>
+        <h2>Contact Us</h2>
+        <p>Don't wait another minute. Walk in for a walk-in or schedule your next transformation online.
+        </p>
+
+        <form>
+            <label for="Username" title="click to focus on the input field for name">Name</label <input type="text"
+                id="name">
+            <br>
+            <br>
+            <label for="Username" title="click to focus on the input field for address">address</label>
+            <input type="text" id="address">
+            <br><br>
+            <label for="Username" title="click to focus on the input field for details">other details</label>
+            <input type="text" id="username">
+            <br><br>
+
+            <button>Submit</button>
+            <br><br>
+
+            <h1>OR</h1>
+            <br><br>
+            <h3>Chat with us on X </h3>
+        </form>
+    </section>
 </body>
 
 </html>
